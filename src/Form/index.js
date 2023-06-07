@@ -3,7 +3,9 @@ import "./style.css";
 const Form = () => (
   <form className="form">
     <input
+      id="taskInput"
       className="form__input"
+      autoFocus
       placeholder="Co jest do zrobienia?"
     />
     <button className="form__button">
