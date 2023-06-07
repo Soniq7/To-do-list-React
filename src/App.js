@@ -28,6 +28,7 @@ function App() {
         body={<Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />}
         headerContent={<Buttons tasks={tasks} hideDoneTasks={hideDoneTasks}/>}
       />
+      
     </Container>
   );
 }
