@@ -1,7 +1,7 @@
-# `To-do List - React`
+# To-do List - React
 
 
-![OG Image]("%PUBLIC_URL%/og-image.jpg")
+![OG Image](https://github.com/Soniq7/To-do-list-React/blob/main/public/og-image.jpg?raw=true)
 
 <br />
 
@@ -11,14 +11,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Application is based on multiple React components that are minified and combined to build one page.
 
-This `task list app` have not been build with any interactions yet, however contains HTML, CSS and JavaScript arrow functions that are responsible for:
+This **task list app** have not been build with any interactions yet, however contains HTML, CSS and JavaScript arrow functions that are responsible for:
 
 - visual side of all the buttons and input task field 
 - visual example of task list display depending on whether "task = done" is **true** or **false**.
 
 <br />
 
-![Presentation]("%PUBLIC_URL%/presentationReact.gif")
+![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/presentationReact.gif?raw=true)
 
 <br />
 
@@ -74,5 +74,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 <br />
 
-# `Demo`:
-TO FOLLOW
+# Demo:
+
+https://soniq7.github.io/To-do-list-React/
