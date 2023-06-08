@@ -37,6 +37,7 @@ This **task list app** have not been build with any interactions yet, however co
 - CSS box model, box-sizing, normalize.css, font-family, flex, grid template, text decoration, border and background color styling: / buttons / form / fonts / sections / task etc., responsivity and media queries
 
 - BEM convention
+- Immutability
 - React components
 - Markup syntax JSX
 - ES6+ features
