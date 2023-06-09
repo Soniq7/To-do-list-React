@@ -1,7 +1,13 @@
 # To-do List - React
 
 
-![OG Image](https://github.com/Soniq7/To-do-list-React/blob/main/public/og-image.jpg?raw=true)
+![OG Image](https://github.com/Soniq7/To-do-list-React/blob/main/public/images/og-image.jpg?raw=true)
+
+<br />
+
+# Demo:
+
+https://soniq7.github.io/To-do-list-React/
 
 <br />
 
@@ -18,7 +24,7 @@ This **task list app** have not been build with any interactions yet, however co
 
 <br />
 
-![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/presentation-React.gif?raw=true)
+![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/images/presentation-React.gif?raw=true)
 
 <br />
 
@@ -73,9 +79,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-<br />
-
-# Demo:
-
-https://soniq7.github.io/To-do-list-React/
