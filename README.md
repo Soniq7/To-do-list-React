@@ -18,7 +18,7 @@ This **task list app** have not been build with any interactions yet, however co
 
 <br />
 
-![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/presentationReact.gif?raw=true)
+![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/presentation-React.gif?raw=true)
 
 <br />
 
