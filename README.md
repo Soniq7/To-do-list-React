@@ -17,14 +17,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Application is based on multiple React components that are minified and combined to build one page.
 
-This **task list app** have not been build with any interactions yet, however contains HTML, CSS and JavaScript arrow functions that are responsible for:
+This **task list app** is built with HTML, CSS, JavaScript arrow functions and interactions that are responsible for:
 
-- visual side of all the buttons and input task field 
-- visual example of task list display depending on whether "task = done" is **true** or **false**.
+- visual side of all the app components: such as buttons, input task field and task list display depending on whether "task = done" is **true** or **false**
+
+- interactions: such as adding new task, marking individual or all tasks as "done", hiding done tasks and also removing individual or all tasks from to-do list.
 
 <br />
 
-![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/images/presentation-React.gif?raw=true)
+![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/images/presentation2-React.gif?raw=true)
 
 <br />
 
