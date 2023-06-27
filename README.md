@@ -23,6 +23,8 @@ This **task list app** is built with HTML, CSS, JavaScript arrow functions and i
 
 - interactions: such as adding new task, marking individual or all tasks as "done", hiding done tasks and also removing individual or all tasks from to-do list.
 
+The application uses **localStorage** and **useEffect** to store, save and retrieve entered data, when reopened on a given device.
+
 <br />
 
 ![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/images/presentation2-React.gif?raw=true)
