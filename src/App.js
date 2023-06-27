@@ -14,13 +14,9 @@ function App() {
     { id: 2, content: "zrobić obiad", done: true },
   ]);
 
-  useEffect(() => 
-    {
+  useEffect(() => {
       localStorage.setItem("tasks", JSON.stringify(tasks));
-    },
-
-    [tasks]
-  );
+  }, [tasks]);
 
   const toggleHideDone = () => {
     setHideDone((hideDone) => !hideDone);
