@@ -24,8 +24,8 @@ export const Item = styled.li`
 export const Content = styled.span`
   word-break: break-word;
 
-  ${({ done }) =>
-    done &&
+  ${({ $done }) =>
+    $done &&
     css`
       text-decoration: line-through;
     `}
@@ -54,8 +54,8 @@ export const Button = styled.button`
       }
     `}
 
-  ${({ remove }) =>
-    remove &&
+  ${({ $remove }) =>
+    $remove &&
     css`
       background-color: hsl(348, 83%, 47%);
 
