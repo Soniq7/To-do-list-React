@@ -5,7 +5,6 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
-import styled from "styled-components";
 
 const defaultTasks = [
   { id: 1, content: "przejść na Reacta", done: false },
