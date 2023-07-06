@@ -6,7 +6,7 @@ const Section = ({ title, body, headerContent }) => (
       <Title>
         {title}
       </Title>
-      {headerContent}
+        {headerContent}
     </Header>
     <Body>
         {body}
