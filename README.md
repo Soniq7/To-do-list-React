@@ -27,7 +27,7 @@ The application uses **localStorage** and **useEffect** to store, save and retri
 
 <br />
 
-![Presentation](https://github.com/Soniq7/To-do-list-React/blob/main/public/images/presentation2-React.gif?raw=true)
+![Presentation](https://i.postimg.cc/nVK2f5wN/presentation-React.gif)
 
 <br />
 
