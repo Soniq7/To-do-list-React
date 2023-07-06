@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const StyledButtons = styled.div`
   display: flex;
   flex-wrap: wrap;
   background: transparent;
@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Button = styled(Container)`
+export const Button = styled(StyledButtons)`
   &:hover {
     color: hsl(180, 100%, 35%);
     cursor: pointer;
