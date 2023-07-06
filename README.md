@@ -49,7 +49,8 @@ The application uses **localStorage** and **useEffect** to store, save and retri
 - Google fonts 
 - Flex
 - Grid template
-- Style-components 
+- Style-components
+- Custom hook 
 - Responsivity
 - Media queries
 - BEM convention
