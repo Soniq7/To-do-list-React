@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Application is based on multiple React components that are minified and combined to build one page.
 
-This **task list app** is built with HTML, CSS, JavaScript arrow functions and interactions that are responsible for:
+This **task list app** is built with HTML, Style-components, JavaScript arrow functions and interactions that are responsible for:
 
 - visual side of all the app components: such as buttons, input task field and task list display depending on whether "task = done" is **true** or **false**
 
@@ -43,8 +43,15 @@ The application uses **localStorage** and **useEffect** to store, save and retri
 
 ## Techlonolgy used:
 
-- CSS box model, box-sizing, normalize.css, font-family, flex, grid template, text decoration, border and background color styling: / buttons / form / fonts / sections / task etc., responsivity and media queries
-
+- Box model
+- Box-sizing
+- Normalize.css
+- Google fonts 
+- Flex
+- Grid template
+- Style-components 
+- Responsivity
+- Media queries
 - BEM convention
 - Immutability
 - React components
