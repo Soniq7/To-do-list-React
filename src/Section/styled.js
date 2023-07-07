@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-  background-color: white;
-  box-shadow: 0 0 5px #ddd;
+  background-color: ${({ theme }) => theme.color.white};
+  box-shadow: 0 0 5px ${({ theme }) => theme.color.grey};
   margin: 10px 0;
 `;
 
 export const Header = styled.header`
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid ${({ theme }) => theme.color.grey};
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
@@ -15,7 +15,7 @@ export const Header = styled.header`
   gap: 20px;
   padding: 20px;
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     grid-template-columns: 1fr;
   }
 `;

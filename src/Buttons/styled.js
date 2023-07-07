@@ -5,11 +5,11 @@ export const StyledButtons = styled.div`
   flex-wrap: wrap;
   background: transparent;
   border: none;
-  color: teal;
+  color: ${({ theme }) => theme.color.teal};
   margin: 0 0 0 20px;
   transition: color 0.5s;
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     flex-basis: 100%;
     justify-content: center;
     margin: 10px;
@@ -18,11 +18,11 @@ export const StyledButtons = styled.div`
 
 export const Button = styled(StyledButtons)`
   &:hover {
-    color: hsl(180, 100%, 35%);
+    color: ${({ theme }) => theme.color.lighterTeal};
     cursor: pointer;
   }
 
   &:disabled {
-    color: #ccc;
+    color: ${({ theme }) => theme.color.darkerGrey};
   }
 `;

@@ -10,8 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        color: #222;
-        background: #eee;
+        color: ${({ theme }) => theme.color.lightBlack};
+        background: ${({ theme }) => theme.color.lightGrey};
         line-height: 1.5;
         font-family: Montserrat, sans-serif;
     }

@@ -12,7 +12,7 @@ export const Item = styled.li`
   gap: 10px;
   align-items: center;
   padding: 10px;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid ${({ theme }) => theme.color.grey};
 
   ${({ hidden }) =>
     hidden &&
@@ -32,7 +32,7 @@ export const Content = styled.span`
 `;
 
 export const Button = styled.button`
-  color: white;
+  color: ${({ theme }) => theme.color.white};
   border: none;
   height: 30px;
   width: 30px;
@@ -41,32 +41,32 @@ export const Button = styled.button`
   ${({ $toggleDone }) =>
     $toggleDone &&
     css`
-      background-color: hsl(120, 100%, 25%);
+      background-color: ${({ theme }) => theme.color.green};
 
       &:hover {
         cursor: pointer;
-        background: hsl(120, 100%, 30%);
+        background: ${({ theme }) => theme.color.lightGreen};
       }
 
       &:active {
-        border: 1px solid black;
-        background: hsl(120, 100%, 40%);
+        border: 1px solid ${({ theme }) => theme.color.black};
+        background: ${({ theme }) => theme.color.lighterGreen};
       }
     `}
 
   ${({ $remove }) =>
     $remove &&
     css`
-      background-color: hsl(348, 83%, 47%);
+      background-color: ${({ theme }) => theme.color.crimson};
 
       &:hover {
         cursor: pointer;
-        background: hsl(348, 83%, 57%);
+        background: ${({ theme }) => theme.color.lightCrimson};
       }
 
       &:active {
-        border: 1px solid black;
-        background: hsl(348, 83%, 62%);
+        border: 1px solid ${({ theme }) => theme.color.black};
+        background: ${({ theme }) => theme.color.lighterCrimson};
       }
     `}
 `;
