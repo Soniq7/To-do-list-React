@@ -50,6 +50,7 @@ The application uses **localStorage** and **useEffect** to store, save and retri
 - Flex
 - Grid template
 - Style-components
+- Theme
 - Custom hook 
 - Responsivity
 - Media queries
