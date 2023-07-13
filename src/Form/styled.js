@@ -11,7 +11,7 @@ export const StyledForm = styled.form`
 `;
 
 export const Input = styled.input`
-  border: 2px solid ${({ theme }) => theme.color.grey};
+  border: 2px solid ${({ theme }) => theme.color.alto};
   padding: 10px;
 `;
 
@@ -24,12 +24,12 @@ export const Button = styled.button`
 
   &:hover {
     cursor: pointer;
-    background: ${({ theme }) => theme.color.lightTeal};
+    filter: brightness(110%);
     transform: scale(1.1);
   }
 
   &:active {
-    background: ${({ theme }) => theme.color.lighterTeal};
+    filter: brightness(120%);
     border: 1px solid ${({ theme }) => theme.color.black};
   }
 `;

@@ -10,7 +10,7 @@ export const Button = styled.button`
   border: none;
   color: ${({ theme }) => theme.color.teal};
   margin: 0 0 0 20px;
-  transition: color 0.5s;
+  transition: filter 0.3s;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     flex-basis: 100%;
@@ -19,11 +19,15 @@ export const Button = styled.button`
   }
 
   &:hover {
-    color: ${({ theme }) => theme.color.lighterTeal};
+    filter: brightness(110%);
     cursor: pointer;
   }
 
+  &:active {
+    filter: brightness(120%)
+  }
+
   &:disabled {
-    color: ${({ theme }) => theme.color.darkerGrey};
+    color: ${({ theme }) => theme.color.silver};
   }
 `;
