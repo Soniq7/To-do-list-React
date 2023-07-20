@@ -23,7 +23,7 @@ This **task list app** is built with HTML, Style-components, JavaScript arrow fu
 
 - interactions: such as adding new task, marking individual or all tasks as "done", hiding done tasks and also removing individual or all tasks from to-do list.
 
-The application uses **localStorage** and **useEffect** to store, save and retrieve entered data, when reopened on a given device - **this is temoprpary suspended due ongoing React-Redux library implementation.**
+The application uses **localStorage** and **useEffect** to store, save and retrieve entered data, when reopened on a given device - **this is temporarily suspended due to ongoing React-Redux library implementation.**
 
 <br />
 
