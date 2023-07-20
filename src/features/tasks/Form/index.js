@@ -21,7 +21,7 @@ const Form = () => {
 
     if (!trimmedNewTaskContent) {
       return;
-    }
+    };
 
     dispatch(
       addTask({
@@ -43,7 +43,9 @@ const Form = () => {
         value={newTaskContent}
         onChange={({ target }) => sentNewTaskContent(target.value)}
       />
-      <Button onClick={focusInput}>Dodaj zadanie</Button>
+      <Button 
+        onClick={focusInput}>Dodaj zadanie
+      </Button>
     </StyledForm>
   );
 };

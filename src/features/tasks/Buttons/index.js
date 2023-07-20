@@ -10,7 +10,9 @@ const Buttons = () => {
     <StyledButtons>
       {tasks.length > 0 && (
         <>
-          <Button onClick={() => dispatch(toggleHideDone())}>
+          <Button 
+            onClick={() => dispatch(toggleHideDone())}
+          >
             {hideDone ? "Pokaż " : "Ukryj "} ukończone
           </Button>
           <Button
