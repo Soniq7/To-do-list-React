@@ -1,14 +1,17 @@
 import { useSelector, useDispatch } from "react-redux";
 import { StyledButtons, Button } from "./styled";
-import { selectTasksState, toggleHideDone, setAllDone } from "../tasksSlice";
+import { toggleHideDone, setAllDone, selectAreTasksEmpty, selectIsEveryTaskDone, selectHideDone } from "../tasksSlice";
 
 const Buttons = () => {
-  const { tasks, hideDone } = useSelector(selectTasksState);
+  const areTasksEmpty = useSelector(selectAreTasksEmpty);
+  const isEveryTaskDone = useSelector(selectIsEveryTaskDone);
+  const hideDone = useSelector(selectHideDone);
+
   const dispatch = useDispatch();
 
   return (
     <StyledButtons>
-      {tasks.length > 0 && (
+      {!areTasksEmpty && (
         <>
           <Button 
             onClick={() => dispatch(toggleHideDone())}
@@ -17,8 +20,8 @@ const Buttons = () => {
           </Button>
           <Button
             as="button"
-            disabled={tasks.every(({ done }) => done)}
             onClick={() => dispatch(setAllDone())}
+            disabled={isEveryTaskDone}
           >
             Ukończ wszystkie
           </Button>
