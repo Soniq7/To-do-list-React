@@ -32,7 +32,6 @@ const Form = () => {
     );
 
     sentNewTaskContent("");
-    inputRef.current.focus();
   };
 
   return (
