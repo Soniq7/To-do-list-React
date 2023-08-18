@@ -1,11 +1,14 @@
 import Form from "./Form";
 import TaskList from "./TaskList";
 import Buttons from "./Buttons";
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import Container from "../../common/Container/styled";
+import Section from "../../../common/Section";
+import Header from "../../../common/Header";
+import Container from "../../../common/Container/styled";
+import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 
-function Tasks() {
+function TasksPage() {
+  const location = useLocation();
+
   return (
     <Container>
       <Header 
@@ -24,4 +27,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;
