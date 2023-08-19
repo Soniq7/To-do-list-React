@@ -4,11 +4,9 @@ import Buttons from "./Buttons";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Container from "../../../common/Container/styled";
-import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
+import Search from "./Search";
 
-function TasksPage() {
-  const location = useLocation();
-
+function TasksPage() {  
   return (
     <Container>
       <Header 
@@ -17,6 +15,10 @@ function TasksPage() {
       <Section 
         title="Dodaj nowe zadanie" 
         body={<Form />} 
+      />
+      <Section 
+        title="Wyszukiwarka" 
+        body={<Search />} 
       />
       <Section
         title="Lista zadań"
