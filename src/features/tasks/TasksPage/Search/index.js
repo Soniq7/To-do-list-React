@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { Wrapper } from "./styled";
 import { useHistory } from "react-router-dom";
 import searchQueryParamName from "../searchQueryParamName";
-import Input from "../../Input";
+import Input from "../../Input/styled";
 
 export default () => {
   const location = useLocation();
