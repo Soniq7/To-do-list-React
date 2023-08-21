@@ -7,6 +7,7 @@ export const NavList = styled.ul`
   justify-content: center;
   gap: 40px;
   padding: 20px;
+  margin: 0px;
   background-color: ${({ theme }) => theme.color.teal};
   list-style: none;
 `;
