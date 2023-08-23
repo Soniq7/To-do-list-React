@@ -1,10 +1,12 @@
-
 import { Wrapper } from "./styled";
 import Input from "../../Input/styled";
 import searchQueryParamName from "../searchQueryParamName";
-import { useQueryParameter, useReplaceQueryParameter } from "../queryParameters";
+import {
+  useQueryParameter,
+  useReplaceQueryParameter,
+} from "../queryParameters";
 
-export default () => { 
+export default () => {
   const query = useQueryParameter(searchQueryParamName);
   const replaceQueryParameter = useReplaceQueryParameter();
 
