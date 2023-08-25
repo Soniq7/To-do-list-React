@@ -14,10 +14,10 @@ export const NavList = styled.ul`
 export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   color: ${({ theme }) => theme.color.white};
-  transition: filter 0.5s;
+  transition: filter 0.3s;
 
   &:hover {
-    filter: brightness(80%);
+    filter: brightness(85%);
   }
 
   &.active {
