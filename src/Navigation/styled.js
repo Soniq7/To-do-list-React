@@ -3,9 +3,8 @@ import styled from "styled-components";
 
 export const NavList = styled.ul`
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
   padding: 20px;
   margin: 0px;
   background-color: ${({ theme }) => theme.color.teal};
