@@ -17,17 +17,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Application is based on multiple React components that are minified and combined to build one page.
 
-This **task list app** is built with HTML, Style-components, JavaScript arrow functions and interactions that are responsible for:
+This **task list app** is built with HTML, Style-components, JavaScript arrow / generator functions and interactions that are responsible for:
 
-- visual side of all the app components: such as buttons, input task field and task list display depending on whether "task = done" is **true** or **false**
+- visual side of all the app components, such as: buttons, input, search task field and task list display depending on whether "task = done" is **true** or **false**.
 
-- interactions: such as adding new task, marking individual or all tasks as "done", hiding done tasks and also removing individual or all tasks from to-do list.
+- interactions, such as: adding new task, task filtering, dowloading sample tasks, marking individual or all tasks as "done", hiding done tasks, removing individual or all tasks from to-do list and subpage routing (tasks and page navigation).
 
-The application uses **localStorage** and **useEffect** to store, save and retrieve entered data, when reopened on a given device - **this is temporarily suspended due to ongoing React-Redux library implementation.**
+
+The application uses **localStorage** to store, save and retrieve entered data, when reopened on a given device.
 
 <br />
 
-![Presentation](https://i.postimg.cc/nVK2f5wN/presentation-React.gif)
+![Presentation](https://i.postimg.cc/52d9Wq5q/presentation-React.gif)
 
 <br />
 
@@ -41,6 +42,8 @@ The application uses **localStorage** and **useEffect** to store, save and retri
 ## Library used:
 - React (Create-React-App dependecies: React, ReactDOM, Webpack, Babel, ESLint, PostCSS etc.)
 - React-Redux / Redux-Toolkit library (application state management)
+- Redux-Saga (side effects manager)
+- React-Router (client side routing)
 
 ## Techlonolgy used:
 
@@ -58,6 +61,8 @@ The application uses **localStorage** and **useEffect** to store, save and retri
 - BEM convention
 - Immutability
 - React components
+- Generator functions
+- localStorage (JSON.stringify / JSON.parse)
 - Markup syntax JSX
 - ES6+ features
 
