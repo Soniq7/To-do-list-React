@@ -19,7 +19,7 @@ Application is based on multiple React components that are minified and combined
 
 This **task list app** is built with HTML, Style-components, JavaScript arrow / generator functions and interactions that are responsible for:
 
-- visual side of all the app components, such as: buttons, input, search task field and task list display depending on whether "task = done" is **true** or **false**.
+- visual side of all the app components, such as: buttons, input, task search field and task list display depending on whether "task = done" is **true** or **false**.
 
 - interactions, such as: adding new task, task filtering, dowloading sample tasks, marking individual or all tasks as "done", hiding done tasks, removing individual or all tasks from to-do list and subpage routing (tasks and page navigation).
 
