@@ -8,6 +8,7 @@ import {
 } from "../../tasksSlice";
 import searchQueryParamName from "../searchQueryParamName";
 import { useQueryParameter } from "../queryParameters";
+import { toTask } from "../../../../routes";
 
 const TaskList = () => {
   const query = useQueryParameter(searchQueryParamName);
@@ -19,12 +20,17 @@ const TaskList = () => {
   return (
     <List>
       {tasks.map((task) => (
-        <Item key={task.id} hidden={task.done && hideDone}>
+        <Item 
+          key={task.id} 
+          hidden={task.done && hideDone}
+        >
           <Button $toggleDone onClick={() => dispatch(toggleTaskDone(task.id))}>
             {task.done ? "✓" : ""}
           </Button>
           <Content $done={task.done}>
-            <LinkContent to={`/zadania/${task.id}`}>{task.content}</LinkContent>
+            <LinkContent to={toTask({ id: task.id })}>
+              {task.content}
+            </LinkContent>
           </Content>
           <Button $remove onClick={() => dispatch(removeTask(task.id))}>
             🗑
